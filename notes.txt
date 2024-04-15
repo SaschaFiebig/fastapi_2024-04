@@ -1,4 +1,11 @@
 
+# this training project is taken from the following FastAPI tutorial:
+https://fastapi.tiangolo.com/learn/
+
+# cheat cheat from mypy
+https://mypy.readthedocs.io/en/latest/cheat_sheet_py3.html
+
+
 # setup for virtual environment 
 python -m venv env
 source env/bin/activate
