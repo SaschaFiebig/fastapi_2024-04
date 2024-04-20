@@ -20,7 +20,7 @@ class ModelName(str, Enum):
 async def read_user_me():
     return {"user_id": "the current user"}
 
-@app.get("/items/{item_id}")  # http://127.0.0.1:8000/items/foo
+@app.get("/items/{item_id}")        # http://127.0.0.1:8000/items/foo
 #async def read_item(item_id):      # here the value of item_id can be of any type 
 async def read_item(item_id: str):  # the value of item_id has to be a string 
     return {"item_id": item_id}
